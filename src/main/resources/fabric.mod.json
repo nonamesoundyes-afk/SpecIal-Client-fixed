@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "special",
+  "version": "${version}",
+  "name": "SpecIal",
+  "description": "SpecIal visual client: HUD, menu, account login.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.special.SpecIal"] },
+  "mixins": ["special.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

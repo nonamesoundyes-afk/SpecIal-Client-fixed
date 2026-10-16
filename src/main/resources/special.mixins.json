@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.special.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MultiplayerScreenMixin", "MinecraftClientAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}
